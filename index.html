@@ -31,17 +31,22 @@
      <div class="filme-principal">
          <div class="container">
              <h3 class="titulo">HOMEN ARANHA 3 - SPIDERVERSE</h3>
+             
                 <p class="decricao">O Homem-Aranha 3 deverá ser um dos filmes mais memoráveis da franquia. Isso porque o longa poderá juntar três versões do herói com seus atores originais: Tobey Maguire poderá voltar como Peter Parker, assim como Andrew Garfield. Será imperdível</p>
          <div class="botoes">
-         <button role="button" class="botao">
+         <button onClick="window.location.reload()" role="button" class="botao">
              <i class="fas fa-play"></i>
              ASSISTIR TRAILER
+             
          </button>
          <button role="button" class="botao">
              <i class="fas fa-info-circle"></i>
              MAIS INFORMAÇÕES
          </button>
      </div>
+     <video width="400" controls>
+        <source src="img/Spiderman.mp4" >
+       </video>
 </div>
 </div>
  </main>
@@ -79,7 +84,10 @@
 
     <CENTER>@DESENVOLVIDO POR FELIPE MULERO</CENTER>
 
-
+<script>
+    var v = document.getElementsByTagName("video")[0];
+    v.play();
+</script>
 
 <script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
 <script src="js/OWL/jquery.min.js"></script>
